@@ -17,3 +17,5 @@ An import replaces the spreadsheet route. It keeps scores and notes when Day, Ve
 Welcome screen: opens when the app launches. Tap Start scouting to see the route. Menu > Welcome screen returns to the front page.
 
 Repository workbook updates: Edit FABTECH_Vendors.xlsx, upload it over the old workbook in the same GitHub Pages folder as index.html, and commit. Open or restart the app while online to load the latest workbook automatically. Offline, the last saved vendor list remains available. Existing scores and notes remain when Day, Vendor Name, and Booth Number match exactly. Manual import remains available in the menu.
+
+If the route does not change: confirm the committed file is exactly FABTECH_Vendors.xlsx (not .xls or .xlsx.xlsx), in the same published folder as index.html. Open the app while online and tap Menu > Check workbook update. The status on Menu and Route overview shows any filename, format, or parsing error.
